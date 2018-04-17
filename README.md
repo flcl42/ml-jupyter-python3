@@ -32,11 +32,11 @@ Windows:
 ### 2.2 run a new Docker container
 Linux/MacOS:
 
-    $ docker run -p 8888:8888 -v /data:/notebooks -it --rm asashiho/ml-jupyter-python3
+    $ docker run -p 8888:8888 -v /data:/notebooks -it --rm flcl42/ml-jupyter-python3
 
 Windows:
 
-    $ docker run -p 8888:8888 -v /c/data:/notebooks -it --rm asashiho/ml-jupyter-python3
+    $ docker run -p 8888:8888 -v /c/data:/notebooks -it --rm flcl42/ml-jupyter-python3
 
 
 
@@ -59,7 +59,7 @@ Windows:
 >- Pillow
 >- h5py
 >- google-api-python-client
-
+>- tflearn
 
 This container is CPU Only.If you want to use GPU, rebuilding GPU images requires [nvidia-docker](https://github.com/NVIDIA/nvidia-docker).
 
