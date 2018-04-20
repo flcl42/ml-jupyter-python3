@@ -40,7 +40,7 @@ RUN pip --no-cache-dir install \
         Pillow \
         h5py \
         google-api-python-client \
-        tflearn \
+        git+https://github.com/tflearn/tflearn.git \
         && \
     python -m ipykernel.kernelspec
 
