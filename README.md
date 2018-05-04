@@ -42,7 +42,7 @@ Windows:
 
 >This container setup:
 >- Python 3.6
->- TensorFlow 1.5.0
+>- TensorFlow 1.7.0
 >- scikit-learn 
 >- keras
 >- sklearn
